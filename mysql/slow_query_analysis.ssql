@@ -1,4 +1,14 @@
 
+Bad version
+
 SELECT *
 FROM orders
 WHERE DATE(order_date) = CURDATE();
+
+
+Improved Version 
+
+SELECT order_id, customer_id, order_total, order_date
+FROM orders
+WHERE order_date >= CURDATE()
+  AND order_date < CURDATE() + INTERVAL 1 DAY;
