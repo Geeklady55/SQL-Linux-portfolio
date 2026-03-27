@@ -17,3 +17,9 @@ FROM orders
 WHERE customer_id = 100;
 
 Used EXPLAIN to confirm index usage and detect table scans.
+
+
+Connection monitoring
+
+SHOW STATUS LIKE 'Threads_connected';
+SHOW STATUS LIKE 'Threads_running';
