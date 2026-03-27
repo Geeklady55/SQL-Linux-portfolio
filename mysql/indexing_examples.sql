@@ -7,3 +7,13 @@ WHERE customer_id = 101
 
 CREATE INDEX idx_orders_customer_status
 ON orders(customer_id, status);
+
+
+
+Index usage check:
+
+EXPLAIN SELECT *
+FROM orders
+WHERE customer_id = 100;
+
+Used EXPLAIN to confirm index usage and detect table scans.
