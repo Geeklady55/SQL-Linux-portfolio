@@ -15,3 +15,43 @@ This portfolio is designed to demonstrate production-style troubleshooting, not 
 
 ## Core Skills
 SQL, MySQL, Linux, Bash, troubleshooting, performance tuning, log analysis, root cause analysis, incident response, system health checks, monitoring, reporting, data validation
+
+
+## Real World Scenarios Included
+
+This portfolio simulates real production incidents including:
+
+Database performance degradation
+Connection exhaustion
+Disk space incidents
+Linux performance troubleshooting
+Service failures
+Data integrity validation
+Query optimization
+
+## Key Skills Demonstrated
+
+SQL
+MySQL
+Linux Administration
+Incident Response
+Root Cause Analysis
+Performance Troubleshooting
+Shell scripting
+Production debugging
+Monitoring
+Automation
+
+## Tools Used
+
+Linux
+MySQL
+Bash
+Systemctl
+Journalctl
+Top
+DF
+SS
+SQL EXPLAIN
+Information Schema
+Processlist analysis
