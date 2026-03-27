@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Linux Portfolio</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 { color: #22c55e; }
+    h2 { color: #38bdf8; }
+    .section {
+      background: #111827;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    a { color: #67e8f9; }
+    pre {
+      background: black;
+      color: #86efac;
+      padding: 15px;
+      border-radius: 10px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Colleen Cummings</h1>
+  <h2>Senior SQL / Linux Portfolio</h2>
 
+  <div class="section">
+    <p>
+      Production-style SQL investigations, Linux troubleshooting, service checks,
+      disk usage reviews, and incident response examples.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Featured SQL Example</h2>
+    <pre>
+SELECT email, COUNT(*) AS duplicate_count
+FROM customers
+GROUP BY email
+HAVING COUNT(*) > 1;
+    </pre>
+  </div>
+
+  <div class="section">
+    <h2>Portfolio Evidence</h2>
+    <p>SQL terminal output example:</p>
+    <img src="screenshots/sql-terminal-output.png" alt="SQL terminal output">
+
+    <p>Service status checks:</p>
+    <img src="screenshots/service-status.png" alt="Service status">
+
+    <p>Disk usage review:</p>
+    <img src="screenshots/disk-usage.png" alt="Disk usage">
+
+    <p>Troubleshooting workflow:</p>
+    <img src="diagrams/troubleshooting-flow.png" alt="Workflow">
+  </div>
+
+  <div class="section">
+    <h2>GitHub Repository</h2>
+    <p>
+      <a href="https://github.com/Geeklady55/sql-linux-portfolio">View repository</a>
+    </p>
+  </div>
+</body>
+</html>
