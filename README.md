@@ -2,8 +2,9 @@
 # Senior SQL, MySQL, and Linux Troubleshooting Portfolio
 
 Created by Colleen Cummings
+## Why This Portfolio Exists
 
-This portfolio demonstrates senior-level experience in SQL, MySQL, and Linux through production-style troubleshooting scenarios, performance investigations, shell scripting, reporting queries, and incident response case studies.
+This portfolio is designed to demonstrate production-style troubleshooting, not classroom exercises. It reflects the kind of SQL analysis, Linux investigation, scripting, and incident response work required in senior technical support, cloud, and platform engineering roles.
 
 ## What This Portfolio Demonstrates
 - SQL and MySQL query writing for reporting, validation, and troubleshooting
